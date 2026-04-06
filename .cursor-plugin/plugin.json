@@ -1,0 +1,7 @@
+{
+    "name": "build-review-in-subagent-cycle",
+    "displayName": "Builds a plan using subagents",
+    "description": "Start with a detailed implementation plan, then use `/build-with-subagent-review` command in chat and it will delegate implementation of your plan to subagents: `coder` subagent writes code, `code-reviewer` reviews it, `scope-reviewer` looks for scope gaps, and main subagent orchestrates.",
+    "version": "0.1.0",
+    "author": { "name": "Volodymyr Labenskyi" }
+}
